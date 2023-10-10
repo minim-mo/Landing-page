@@ -1,0 +1,71 @@
+
+ /* { base color palette
+    background-color
+   * winter-snow:#edede9;
+    fonts-color
+   * cream: #fff1e6;
+   ** light-brown: #f5ebe0;
+    button
+   * velvet-red: #d6ccc2;
+    fonts-color
+   * dark-red: #d5bdaf;
+ } */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,600;0,800;0,900;1,300;1,400;1,600;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    background-color: #d6ccc2;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    background: #d6ccc2;
+    border-bottom: 1px solid #d5bdaf;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+
+
+}
+
+.logo {
+    color: #6f1d1b;
+    font-size: 32px;
+    font-weight: 800;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: #6f1d1b;
+    color: #edede9;
+    padding: 8px 24px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #6f1d1b;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 24px;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    gap: 16px;
+    margin-left: 320px;
+}
+
+.footer {
+    background-color: #d6ccc2;
+}
